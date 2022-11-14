@@ -18,6 +18,6 @@
         <item name="android:textColor">@color/white</item>
         <item name="chipBackgroundColor">@color/blue</item>
         <item name="chipStrokeColor">@color/black_616</item>
-        <item name="chipStrokeWidth">2dp</item>
+        <item name="chipStrokeWidth">1dp</item>
     </style>
 </resources>

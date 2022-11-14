@@ -8,63 +8,64 @@
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/chipGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#306C98"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="4dp">
+        android:layout_width="407dp"
+        android:layout_height="98dp"
+        android:background="#021525"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-1dp">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1"
+            style="@style/chEntry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chip One"
-            style="@style/chEntry"
             tools:layout_editor_absoluteX="199dp"
             tools:layout_editor_absoluteY="51dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2"
+            style="@style/chEntry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chip Two"
-            style="@style/chEntry"
             tools:layout_editor_absoluteX="199dp"
             tools:layout_editor_absoluteY="51dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3"
+            style="@style/chEntry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chip Three"
-            style="@style/chEntry"
             tools:layout_editor_absoluteX="199dp"
             tools:layout_editor_absoluteY="51dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4"
+            style="@style/chEntry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chip Four"
-            style="@style/chEntry"
             tools:layout_editor_absoluteX="199dp"
             tools:layout_editor_absoluteY="51dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip5"
+            style="@style/chEntry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chip Five"
-            style="@style/chEntry"
             tools:layout_editor_absoluteX="199dp"
             tools:layout_editor_absoluteY="51dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip6"
+            style="@style/chEntry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chip Six"
-            style="@style/chEntry"
             tools:layout_editor_absoluteX="199dp"
             tools:layout_editor_absoluteY="51dp" />
 
