@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mollm/AndroidStudioProjects/BotonesAndroid2/app/src/main/res/drawable/ch_textcolor.xml" value="0.1" />
+        <entry key="..\:/Users/mollm/AndroidStudioProjects/BotonesAndroid2/app/src/main/res/layout/activity_buttons.xml" value="0.1" />
         <entry key="..\:/Users/mollm/AndroidStudioProjects/BotonesAndroid2/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
