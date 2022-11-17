@@ -22,10 +22,10 @@ class buttons : AppCompatActivity(){
             chip.setOnCloseIconClickListener {
                 cgCondiciones.removeView(it)
             }
-                chip.setOnClickListener{
-                    var aux = it as Chip
-                    Toast.makeText(this,"${aux.text} Pulsado", Toast.LENGTH_SHORT).show()
-                }
+            chip.setOnClickListener{
+                var aux = it as Chip
+                Toast.makeText(this,"${aux.text} Pulsado", Toast.LENGTH_SHORT).show()
+            }
         }
 
     }
