@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 
@@ -27,8 +28,9 @@ class MainActivity : AppCompatActivity() {
                     var aux = it as Chip
                     Toast.makeText(this,"${aux.text} Pulsado", Toast.LENGTH_SHORT).show()
                 }
-            }
 
-        }
+            }
+    }
+
 
     }

@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 
@@ -27,6 +28,15 @@ class buttons : AppCompatActivity(){
                 Toast.makeText(this,"${aux.text} Pulsado", Toast.LENGTH_SHORT).show()
             }
         }
+        val chipNew = Chip(this)
+        chipNew.text = "Nuevo Chip"
+        chipNew.chipIcon = ContextCompat.getDrawable(this,R.drawable.ic_baseline_agriculture_24)
+        chipNew.isChipIconVisible = false
+        chipNew.isChipIconVisible = true
+        chipNew.isClickable = true
+        chipNew.isClickable = false
 
+        cgCondiciones.addView(chipNew as View)
+        chipNew.setOnCloseIconClickListener { cgCondiciones.removeView(chipNew as View)}
     }
 }
