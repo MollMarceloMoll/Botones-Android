@@ -67,6 +67,7 @@
     </com.google.android.material.chip.ChipGroup>
 
     <RadioGroup
+        android:id="@+id/destinos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,11 +75,12 @@
         tools:layout_editor_absoluteX="10dp">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="RadioButton One"
+            android:onClick="onRadioButtonClicked"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="97dp" />
 
@@ -87,6 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RadioButton Two"
+            android:onClick="onRadioButtonClicked"
             tools:layout_editor_absoluteY="147dp" />
 
         <RadioButton
@@ -94,6 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RadioButton Three"
+            android:onClick="onRadioButtonClicked"
             tools:layout_editor_absoluteY="197dp" />
 
         <RadioButton
@@ -101,6 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RadioButton Four"
+            android:onClick="onRadioButtonClicked"
             tools:layout_editor_absoluteY="248dp" />
 
         <RadioButton
@@ -108,6 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RadioButton Five"
+            android:onClick="onRadioButtonClicked"
             tools:layout_editor_absoluteY="298dp" />
     </RadioGroup>
 
